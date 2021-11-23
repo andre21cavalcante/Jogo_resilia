@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://www.eosconsultores.com.br/wp-content/uploads/2018/07/7.jpg);
+    background-size: 105%;
+    height: 100%;
+    width: 100%;
+    
+}
+.cabeca{
+    padding: 30px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    
+}
+
+.cabeca h1{
+    padding-left: 40px;
+    width: 80%;
+    font-family: 'Inconsolata', monospace;
+    text-decoration: none;
+   
+}
+
+.sobre{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    font-family: 'Inconsolata', monospace;
+}
+
+.sobreli{
+    padding: 0 30px;
+    list-style: none;
+}
+
+.sobreli a{
+    text-decoration: none;
+    font-size: 25px;   
+    color: white;
+}
